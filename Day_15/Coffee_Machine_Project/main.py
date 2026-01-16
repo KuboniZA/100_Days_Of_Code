@@ -35,9 +35,7 @@ order = input("What would you like to order? Type:\n\n1: Espresso\n2: Latte\n3: 
 
 # TODO: 1. Print report of all coffee machine resources.
 if order == "report" or order == "r":
-    print(f"Water: {resources['water']}ml")
-    print(f"Milk: {resources['milk']}ml")
-    print(f"Coffee: {resources['coffee']}g")   
+    print(f"\nWater: {resources['water']}ml\nMilk: {resources['milk']}ml\nCoffee: {resources['coffee']}g")
 
 # TODO: 2. Check resources sufficient to make drink order.
 elif order == "espresso" or order == "1":
